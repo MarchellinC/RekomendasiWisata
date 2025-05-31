@@ -2,4 +2,3 @@ pandas
 scikit-learn
 streamlit
 numpy
-opencv-python-headless
