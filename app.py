@@ -116,7 +116,7 @@ if df is not None:
                     similar_places = df.iloc[indices[0]].copy()
                     similar_places['Distance'] = distances[0]
                     
-                    # Filter out places already in recommendations
+                    # Filter out places already in rec  ommendations
                     existing_places = [rec['Place'] for rec in recommendations]
                     similar_places = similar_places[~similar_places['Place'].isin(existing_places)]
                     
